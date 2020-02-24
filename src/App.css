@@ -1,38 +1,98 @@
 .App {
-  text-align: center;
+	text-align: center;
+	font-family: "Zilla Slab";
+}
+a {
+	color: black;
+}
+a:hover {
+	color: grey;
+}
+.navigationBar {
+	background-color: white;
+	z-index: 2;
+	width: 100%;
+}
+.navigationBar-scrolling {
+	background-color: rgba(102, 102, 102, 0.9);
+	z-index: 2;
+	animation: fadeIn 1s;
+	width: 100%;
+}
+.dropDown-style {
+	color: white !important;
+}
+.dropDown-style:hover {
+	color: black !important;
+}
+.content {
+	margin-top: 56px;
+}
+.heroBg {
+	background: url("https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9")
+		no-repeat bottom center/cover;
+	height: 100vh;
+	position: relative;
+	background-position: center;
+	width: 100%;
+}
+.heroBg > div {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.headingStyle {
+	margin-top: 50px;
+}
+.cardStyle {
+	box-shadow: 2px 4px 10px 4px rgb(189, 189, 189);
+}
+.skillsWrapper {
+	padding: 30px 0px 30px 0px;
+	margin: 20px 0px 20px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.techstackList {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 30px 0px 30px 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.techstackList > li {
+	display: inline-block;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.divider {
+	margin-right: 300px;
+	margin-left: 300px;
+	border: 0.7px solid rgb(207, 207, 207);
 }
-
-.App-link {
-  color: #61dafb;
+.aboutTxt {
+	margin-top: 20%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aboutImg {
+	width: 50%;
+	border-radius: 50%;
+}
+.contactIcon {
+	font-size: 2rem;
+	transition-duration: 0.2s;
+}
+.contactIcon:hover {
+	color: grey;
+}
+@media only screen and (max-width: 992px) {
+	.headingStyle {
+		margin-bottom: 20px;
+	}
+	.aboutTxt {
+		margin-top: 30px;
+	}
+	.divider {
+		margin-right: 100px;
+		margin-left: 100px;
+	}
+}
+@media only screen and (max-width: 650px) {
 }
