@@ -13,11 +13,11 @@ function App() {
 		<div className="App">
 			<Navigation />
 			<div className="content">
-				<Hero />
+				{/* <Hero />
 				<Projects />
 				<Skills />
 				<About />
-				<Contact />
+				<Contact /> */}
 			</div>
 		</div>
   );
