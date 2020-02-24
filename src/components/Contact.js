@@ -10,7 +10,7 @@ const Contact = () => {
 			<Container className="my-5">
 				<Row>
 					<Col>
-						<a href="mailto:webmaster@example.com">
+						<a href="mailto:christophertri90@gmail.com">
 							<i className="fas fa-envelope contactIcon"></i>
 						</a>{" "}
 					</Col>

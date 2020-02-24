@@ -6,9 +6,11 @@ const Navigation = () => {
 
   useEffect(() => {
     document.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 600;
-      if (isTop !== isTop) {
-        setIsTop(isTop);
+      const isTopChanged = window.scrollY < 600;
+      if (isTopChanged !== isTop) {
+        setIsTop(false);
+      } else {
+        setIsTop(true)
       }
     });
   }, []);

@@ -7,9 +7,11 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import {BrowserRouter} from 'react-router-dom'
 
 function App() {
   return (
+		<BrowserRouter>
 		<div className="App">
 			<Navigation />
 			<div className="content">
@@ -20,6 +22,8 @@ function App() {
 				<Contact />
 			</div>
 		</div>
+		</BrowserRouter>
+
   );
 }
 
