@@ -4,13 +4,18 @@ import Heading from "../components/Heading";
 
 const Skills = () => {
 	const skills = [
-		"Ruby",
+    "HTML & CSS",
+    "Ruby",
+    "Ruby on Rails",
+    "JavaScript",
 		"ReactJS",
-		"Node",
+		"NodeJS",
+		"ExpressJS",
 		"MongoDB",
-		"Jest",
-		"Cypress",
-		"Heroku"
+    "Heroku and Netlify",
+    "Trello and Jira",
+    "Figma",
+    "PostgreSQL"
 	];
 	return (
 		<div className="skillsWrapper">

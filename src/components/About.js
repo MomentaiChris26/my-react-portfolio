@@ -18,13 +18,8 @@ const About = () => {
 					</Col>
 					<Col lg={6} md={12} sm={12}>
 						<p className="aboutTxt">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
-							mauris non felis sodales commodo non nec ex. Morbi dui metus,
-							mattis id sodales ut, luctus vel sem. Vestibulum aliquam tortor
-							augue. <br /> Cras facilisis magna mi, et molestie lectus iaculis
-							ac. Sed tristique ipsum enim, ut vulputate elit pharetra eu.{" "}
-							<br /> Phasellus vehicula, neque id tincidunt cursus, elit lorem
-							lobortis lacus, sed congue velit mauris in nibh.
+							Before I was a coder, I worked in finance and accounting and decided to pursuit my passion in programming and development. I completed a 6 month bootcamp at Coder Academy. <br /> I love playing videos, playing obscure boardgames with friends and enjoying scenic views along hikes.{" "}
+							<br /> I love writing code and I'm great at problem solving! <br />Feel free to shoot me an email if you're interested!
 						</p>
 					</Col>
 				</Row>

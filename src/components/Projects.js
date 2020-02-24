@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import AccioCuriosImage from '../images/acciocurios.png'
-import WeExploreImage from '../images/weexploreimage.png'
+import AccioCuriosImage from "../images/acciocurios.png";
+import WeExploreImage from "../images/weexploreimage.png";
+import PortfolioSite from "../images/oldportfoliosite.png";
+
 import {
   Container,
   CardDeck,
@@ -16,10 +18,7 @@ class Projects extends Component {
         <h1>Recent Projects</h1>
         <CardDeck>
           <Card className="cardStyle">
-            <Card.Img
-              variant="top"
-              src={WeExploreImage}
-            />
+            <Card.Img variant="top" src={WeExploreImage} />
             <Card.Body>
               <Card.Title>WeExplore Health & Fitness</Card.Title>
               <Card.Text>
@@ -48,10 +47,7 @@ class Projects extends Component {
             </Card.Footer>
           </Card>
           <Card className="cardStyle">
-            <Card.Img
-              variant="top"
-              src={AccioCuriosImage}
-            />
+            <Card.Img variant="top" src={AccioCuriosImage} />
             <Card.Body>
               <Card.Title>
                 AccioCurios - Buy/Sell Collectibles Marketplace
@@ -64,34 +60,47 @@ class Projects extends Component {
             </Card.Body>
             <Card.Footer>
               <ButtonGroup className="d-flex" size="md">
-                <Button variant="dark" href="https://acciocurios.herokuapp.com/" target="_blank">
+                <Button
+                  variant="dark"
+                  href="https://acciocurios.herokuapp.com/"
+                  target="_blank"
+                >
                   <i className="fas fa-link"></i>
                 </Button>
-                <Button variant="outline-dark" href="https://github.com/MomentaiChris26/AccioCurios" target="_blank">
+                <Button
+                  variant="outline-dark"
+                  href="https://github.com/MomentaiChris26/AccioCurios"
+                  target="_blank"
+                >
                   <i className="fab fa-github-alt"></i>
                 </Button>
               </ButtonGroup>
             </Card.Footer>
           </Card>
           <Card className="cardStyle">
-            <Card.Img
-              variant="top"
-              src="https://images.unsplash.com/photo-1544731612-de7f96afe55f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
-            />
+            <Card.Img variant="top" src={PortfolioSite} />
             <Card.Body>
-              <Card.Title>Card title</Card.Title>
+              <Card.Title>Portfolio Website</Card.Title>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                An old personal portfolio website to showcase my work and
+                provide some details about myself. Site was built using HTML and
+                CSS
               </Card.Text>
             </Card.Body>
             <Card.Footer>
               <ButtonGroup className="d-flex" size="md">
-                <Button variant="dark">
+                <Button
+                  variant="dark"
+                  href="https://christopher-tri-old.netlify.com/"
+                  target="_blank"
+                >
                   <i className="fas fa-link"></i>
                 </Button>
-                <Button variant="outline-dark">
+                <Button
+                  variant="outline-dark"
+                  href="https://github.com/MomentaiChris26/Chris-Tri-Portfolio/"
+                  target="_blank"
+                >
                   <i className="fab fa-github-alt"></i>
                 </Button>
               </ButtonGroup>
